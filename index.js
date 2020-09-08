@@ -4,6 +4,7 @@ class Circle {
   }
 
   const pi = Math.PI;
+  const diameter = this.radius * 2
 
   get diameter(){
     return this.radius * 2
@@ -16,6 +17,8 @@ class Circle {
   get area(){
     let squared = this.radius ** 2;
     return pi * squared
-  }
+  };
+
+  set diameter(){}
 
 }
