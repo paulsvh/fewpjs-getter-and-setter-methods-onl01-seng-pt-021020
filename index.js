@@ -16,7 +16,6 @@ class Circle {
   };
 
   get area(){
-    let squared = this.radius ** 2;
     return pi * squared
   };
 
